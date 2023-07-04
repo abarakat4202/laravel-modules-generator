@@ -4,7 +4,7 @@
  * @author Ahmed Barakat <abarakat4202@gmail.com>
  */
 
-namespace Westore\ModuleGenerator;
+namespace Abarakat\ModuleGenerator;
 
 use ErrorException;
 use Illuminate\Support\Arr;

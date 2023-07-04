@@ -1,6 +1,6 @@
 <?php
 
-namespace Westore\ModuleGenerator\Providers;
+namespace Abarakat\ModuleGenerator\Providers;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Arr;
