@@ -5,7 +5,7 @@ namespace Abarakat\ModuleGenerator\Providers;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
-use Westore\ModuleGenerator\ModuleMake;
+use Abarakat\ModuleGenerator\ModuleMake;
 
 class ModuleGeneratorServiceProvider extends ServiceProvider
 {
