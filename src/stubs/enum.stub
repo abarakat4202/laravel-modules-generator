@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Enums;
+
+use App\Enums\Traits\HasOptions;
+use App\Enums\Contracts\StringableInterface;
+use App\Enums\Contracts\OptionableInterface;
+
+enum {{ FILENAME }}: int implements StringableInterface
+{
+    use HasOptions;
+
+    public function toString(): string
+    {
+        return match($this)
+        {
+            
+        };        
+    }
+}

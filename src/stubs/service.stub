@@ -1,0 +1,17 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+class {{ FILENAME }}
+{
+
+    public function __construct()
+    {
+        
+    }
+
+    public function handle()
+    {
+        return ;
+    }
+}

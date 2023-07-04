@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+use {{ REQUESTNAMESPACE }}\{{ REQUEST }};
+use {{ SERVICENAMESPACE }}\{{ SERVICE }};
+use {{ RESPONDERNAMESPACE }}\{{ RESPONDER }};
+
+class {{ FILENAME }}
+{
+    public function __construct(protected {{ SERVICE }} $service, protected {{ RESPONDER }} $responder)
+    {
+    }
+
+    public function __invoke({{ REQUEST }} $request)
+    {
+        $response = $this->service->handle($request);
+
+        return $this->responder->send($response);
+    }
+}

@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+use Illuminate\Support\Facades\Facade;
+use {{ CLASSNAMESPACE }}\{{ CLASSNAME }} as {{ CLASSNAME }}Class;
+
+/**
+ * @mixin {{ CLASSNAME }}Class
+ */
+class {{ FILENAME }} extends Facade
+{
+
+    protected static function getFacadeAccessor()
+    {
+        return {{ CLASSNAME }}Class::class;
+    }
+}

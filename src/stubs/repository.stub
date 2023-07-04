@@ -1,0 +1,14 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+use App\Repositories\Model;
+use Illuminate\Database\Eloquent\Model as Eloquent;
+
+class {{ FILENAME }} extends Model
+{
+    public function __construct(Eloquent $model)
+    {
+        $this->model = $model;
+    }
+}

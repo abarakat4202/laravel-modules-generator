@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+class {{ FILENAME }}
+{
+    public function send()
+    {
+        return null;
+    }
+}
